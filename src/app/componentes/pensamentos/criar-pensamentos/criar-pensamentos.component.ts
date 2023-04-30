@@ -10,22 +10,22 @@ import { Router } from '@angular/router';
 })
 export class CriarPensamentosComponent {
 
-  pensamento: Pensamento ={    
-    conteudo:'',
-    autoria:'',
-    modelo:''
+  pensamento: Pensamento = {
+    conteudo: '',
+    autoria: '',
+    modelo: ''
   }
   constructor(
     private service: PensamentoService,
-    private router : Router
-    ){}
-  ngOnInit():void{
+    private router: Router
+  ) { }
+  ngOnInit(): void {
   }
 
-  criarPensamento(){
-   this.service.criar(this.pensamento).subscribe(() => {
-    this.router.navigate(['/listarPensamento'])
-   })
+  criarPensamento() {
+    this.service.criar(this.pensamento).subscribe(() => {
+      this.router.navigate(['/listarPensamento'])
+    })
   }
 
   cancelar() {

@@ -7,23 +7,20 @@ import { Pensamento } from './pensamento';
   styleUrls: ['./pensamento.component.css']
 })
 export class PensamentoComponent {
-  
+
   @Input() pensamento: Pensamento = {
-    id:0,
+    id: 0,
     conteudo: 'I love Angular',
     autoria: 'Nay',
     modelo: 'modelo3'
   }
   constructor() { }
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 
-  larguraPensamento(): string{
-    if(this.pensamento.conteudo.length >=256){
+  larguraPensamento(): string {
+    if (this.pensamento.conteudo.length >= 256) {
       return 'pensamento-g'
     }
-  return 'pensamento-p'
-
+    return 'pensamento-p'
   }
-  
-
 }

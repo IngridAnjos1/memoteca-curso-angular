@@ -37,5 +37,4 @@ export class EditarPensamentoComponent {
   cancelar() {
     this.router.navigate(['/listarPensamento'])
   }
-
 }

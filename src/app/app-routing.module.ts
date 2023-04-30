@@ -27,7 +27,7 @@ const routes: Routes = [
   {
     path: 'pensamentos/editarPensamento/:id',
     component: EditarPensamentoComponent
-}   
+  }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
