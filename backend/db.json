@@ -25,15 +25,15 @@
       "id": 4
     },
     {
-      "conteudo": "dfgsdfg",
-      "autoria": "fdgsdgsdfg",
-      "modelo": "modelo2",
+      "conteudo": "Teste Editar",
+      "autoria": "Teste Batatinha",
+      "modelo": "modelo3",
       "id": 8
     },
     {
-      "conteudo": "sdada",
-      "autoria": "sadadssad",
-      "modelo": "modelo2",
+      "conteudo": "Teste dois",
+      "autoria": "teste dois",
+      "modelo": "modelo3",
       "id": 10
     }
   ]
